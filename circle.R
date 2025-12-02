@@ -26,7 +26,7 @@ yest <- beta0 + beta * sin(theta)
 par(new=T)
 plot(x,yest,yaxt="n",ylab="",pch="-")
 text(0,2," y=0.4712516 - 12.40906 X")
-text(0,0,"Die gerade linie is gottlos und unmoralisch.")
+text(0,0,"Die gerade linie ist gottlos und unmoralisch.")
 text(0,-2,"-Friedensreich Hundertwasser, 1958")
 
 #summary(bestfit)
